@@ -1,1 +1,8 @@
-{}
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.java": "java",
+    "cmath": "cpp",
+    "complex": "cpp"
+  }
+}
