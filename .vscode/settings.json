@@ -3,6 +3,8 @@
     "*.ejs": "html",
     "*.java": "java",
     "cmath": "cpp",
-    "complex": "cpp"
+    "complex": "cpp",
+    "Binary.C": "cpp",
+    "GetSetMaxMin.C": "cpp"
   }
 }
