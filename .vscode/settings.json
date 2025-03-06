@@ -5,6 +5,7 @@
     "cmath": "cpp",
     "complex": "cpp",
     "Binary.C": "cpp",
-    "GetSetMaxMin.C": "cpp"
+    "GetSetMaxMin.C": "cpp",
+    "ratio": "c"
   }
 }
