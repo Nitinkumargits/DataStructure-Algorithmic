@@ -6,6 +6,7 @@
     "complex": "cpp",
     "Binary.C": "cpp",
     "GetSetMaxMin.C": "cpp",
-    "ratio": "c"
+    "ratio": "c",
+    "functional": "cpp"
   }
 }
