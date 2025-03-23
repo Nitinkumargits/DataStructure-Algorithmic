@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "sslargestsSamllest",
+      "request": "launch",
+      "mainClass": "sslargestsSamllest",
+      "projectName": "DataStructure-Algorithmic-master_67416103"
+    }
+  ]
+}
