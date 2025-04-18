@@ -1,0 +1,3 @@
+gth;
+
+console.log(avg
