@@ -60,25 +60,42 @@ const game = {
   },
 };
 
-for (const [i, el] of game.scored.entries()) {
-  // console.log(`Goal ${i + 1}: ${el}`);
-}
+// for (const [i, el] of game.scored.entries()) {
+//   // console.log(`Goal ${i + 1}: ${el}`);
+// }
 
-const odds = Object.values(game.odds);
-let avg = 0;
+// const odds = Object.values(game.odds);
+// let avg = 0;
 
-for (const odd of odds) {
-  avg += odd;
-}
-avg /= odds.length;
+// for (const odd of odds) {
+//   avg += odd;
+// }
+// avg /= odds.length;
 
-console.log(avg);
+// console.log(avg);
 
-for (const [team, odd] of Object.entries(game.odds)) {
-  const teamStr = team === "x" ? "draw" : `Victory ${game[team]}`;
-  console.log(`Odd of ${teamStr} ${odd}`);
-}
+// for (const [team, odd] of Object.entries(game.odds)) {
+//   const teamStr = team === "x" ? "draw" : `Victory ${game[team]}`;
+//   console.log(`Odd of ${teamStr} ${odd}`);
+// }
 
-const nam = "N t  ";
+// const nam = "N t  ";
 
-console.log("string:", nam.length);
+// console.log("string:", nam.length);
+
+(function () {
+  console.log("Hello");
+  var pvt = 23;
+})();
+
+console.log("pvt:", pvt);
+let arr = ["a", "b", "c", "d", "e"];
+
+// SLICE
+console.log(arr.slice(2));
+console.log(arr.slice(2, 4));
+console.log(arr.slice(-2));
+console.log(arr.slice(-1));
+console.log(arr.slice(1, -2));
+console.log(arr.slice());
+console.log([...arr]);

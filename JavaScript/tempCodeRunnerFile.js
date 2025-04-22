@@ -1,3 +1,1 @@
-gth;
-
-console.log(avg
+Hello
