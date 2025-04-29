@@ -7,6 +7,19 @@
   </head>
   <body>
     <h1>Hii</h1>
-    <script src="./host.js"></script>
+
+    <input type="password" onmousedown="enterInput(event)" />
+
+    <p id="feedBack"></p>
+
+    <script>
+      function enterInput(e) {
+        let flag = e.getModifierState("CapsLock");
+
+        if (flag) {
+          document.getElementById("feedBack").innerHTML = "CapLOcks ON";
+        }
+      }
+    </script>
   </body>
 </html>
