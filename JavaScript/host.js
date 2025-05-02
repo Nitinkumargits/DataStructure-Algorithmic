@@ -83,14 +83,14 @@ const game = {
 
 // console.log("string:", nam.length);
 
-(function () {
-  console.log("Hello");
-  var pvt = 23;
-})();
+// (function () {
+//   console.log("Hello");
+//   var pvt = 23;
+// })();
 
-(function () {
-  console.log("nitin");
-})();
+// (function () {
+//   console.log("nitin");
+// })();
 
 console.log("pvt:", pvt);
 let arr = ["a", "b", "c", "d", "e"];
