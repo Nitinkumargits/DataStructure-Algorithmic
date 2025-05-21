@@ -7,6 +7,7 @@ const messages = [
   "Learn React ⚛️",
   "Apply for jobs 💼",
   "Invest your new income 🤑",
+  "want job",
 ];
 function App() {
   return (
